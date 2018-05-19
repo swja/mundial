@@ -1,0 +1,286 @@
+/* CSS Document */
+
+
+.logo {
+    position: relative;
+    margin-top: -26%;
+}
+
+.h {
+    position: absolute;
+    width: 50%;
+    top: 43%;
+    left: -9%;
+}
+.m {
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    top: 2%;
+}
+.terminos {
+    position: relative;
+    margin-top: -2%;
+}
+input#Nombre {
+    width: 90%;
+    background: #9cdaf5ad;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px #ee3615;
+}
+input#Ciudad {
+    width: 90%;
+    background: #9cdaf5ad;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px #ee3615;
+}
+input#Telefono {
+    width: 90%;
+    background: #9cdaf5ad;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px #ee3615;
+}
+input#Email {
+    width: 90%;
+    background: #9cdaf5ad;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px #ee3615;
+}
+.enviar {
+    border-radius: 20px;
+    background: #0986be;
+    color: white;
+    height: 5vw;
+}
+footer {
+    background: linear-gradient(to right, rgba(231,56,39,1) 0%, rgba(246,41,12,1) 4%, rgba(240,47,23,1) 20%, rgba(241,111,92,1) 44%, rgba(240,138,36,1) 100%);
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 23px;
+    color: white;
+    padding-top: 6%;
+    margin-top: 2%;
+}
+.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 15%;
+    font-size: 14px;
+}
+.redes {
+    position: relative;
+    margin-left: 57%;
+    margin-top: -6%;
+}
+img.face {
+    width: 15%;
+}
+img.youtube {
+    width: 15%;
+}
+img.insta {
+    width: 15%;
+}
+p{
+	font-style: italic;
+}
+
+@media screen and (min-width:768px){
+.h {
+    position: absolute;
+    width: 45%;
+    top: 37%;
+    left: -10%;
+}
+.m {
+    position: absolute;
+    width: 40%;
+    left: 66%;
+    top: 5%;
+}
+
+.text-footer {
+    position: relative;
+    margin-top: -6%;
+    padding-left: 15%;
+    font-size: 14px;
+}
+.redes {
+    position: relative;
+    margin-left: 57%;
+    margin-top: -9%;
+}
+img.face {
+    width: 15%;
+}
+img.youtube {
+    width: 15%;
+}
+img.insta {
+    width: 15%;
+}
+
+}
+
+@media screen and (min-width:992px)
+{
+	.m {
+    position: absolute;
+    width: 45%;
+    left: 64%;
+    top: 4%;
+}
+	.h {
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: -10%;
+}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 15%;
+    font-size: 14px;
+}
+.redes {
+    position: relative;
+    margin-left: 57%;
+    margin-top: -6%;
+}
+	
+}
+
+@media screen and (max-width:576px)
+{
+.m {
+    position: static;
+    width: 70%;
+    top: 10%;
+    left: 0;
+    z-index: -9999;
+    margin-top: 20%;
+	margin-left: 10%;
+}
+	.h {
+	display: none;
+}
+	.datos{
+	position: relative;
+	margin-top: -80%;
+	}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 15%;
+    font-size: 14px;
+}
+.redes {
+    position: relative;
+    margin-left: 57%;
+    margin-top: -6%;
+}
+	#imagenes {
+    position: relative;
+    top: -146px;
+}
+	input#Check {
+    position: relative;
+    left: -44%;
+}
+	.terminos {
+    position: relative;
+    margin-top: -5%;
+    left: 5%;
+}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 0%;
+    font-size: 21px;
+}
+	footer {
+    background: linear-gradient(to right, rgba(231,56,39,1) 0%, rgba(246,41,12,1) 4%, rgba(240,47,23,1) 20%, rgba(241,111,92,1) 44%, rgba(240,138,36,1) 100%);
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding-top: 6%;
+    margin-top: 2%;
+	text-align: center;
+}
+	.redes {
+    position: static;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+	.enviar {
+    border-radius: 20px;
+    background: #0986be;
+    color: white;
+    height: 10vw;
+}
+}
+@media screen and (max-width:360px){
+	#imagenes {
+    position: relative;
+    top: -85px;
+}
+.redes {
+    position: static;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 0%;
+    font-size: 20px;
+}
+	input#Check {
+    position: relative;
+    left: -44%;
+		z-index: 99999;
+}
+}
+@media screen and (min-width:1200px){
+	.m {
+    position: absolute;
+    width: 43%;
+    left: 64%;
+    top: 5%;
+}
+	.h {
+    position: absolute;
+    width: 43%;
+    top: 53%;
+    left: -11%;
+}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 15%;
+    font-size: 18px;
+}
+}
+@media screen and (min-width:1440px){
+	.m {
+    position: absolute;
+    width: 43%;
+    left: 58%;
+    top: -2%;
+}
+	.h {
+    position: absolute;
+    width: 43%;
+    top: 40%;
+    left: -4%;
+}
+	.redes {
+    position: relative;
+    margin-left: 60%;
+    margin-top: -6%;
+}
+}
+

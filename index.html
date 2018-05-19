@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Mundial</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="https://vivewow.com/img/favicon.ico?1521814378">
+</head>
+<header>
+<div class="container">
+	<img src="../mundial/images/header.jpg" class="img-fluid" style="width: 100%">
+	<img src="../mundial/images/logo.png" class="logo col-lg-8 col-md-8 col-sm-8 col-xs-8">
+</div>
+</header>
+<body>
+	<div class="container">
+		<img src="../mundial/images/wow.png" class="mx-auto d-block col-lg-9 col-md-9 col-sm-9 col-xs-9">
+		<img src="../mundial/images/registrate.jpg" class="mx-auto d-block col-lg-9 col-md-9 col-sm-9 col-xs-9">
+		<img src="../mundial/images/participa.jpg" class="mx-auto d-block col-lg-9 col-md-9 col-sm-9 col-xs-9">
+	</div>
+	<div class="container-fluid" id="imagenes">
+	<img src="../mundial/images/hombre.png" class="h col-lg-9 col-md-9 col-sm-9 col-xs-9 col-xl-9">
+	<img src="../mundial/images/mujer.png" class="m col-lg-9 col-md-9 col-sm-9 col-xs-9 col-xl-9">
+	</div>
+	<br>
+	<div class="container">
+		<div class="datos">
+			<form action="registro.php" method="post">
+				<input type="text" id="Nombre" name="nombre" placeholder=" Nombre" class="mx-auto d-block col-lg-6 col-md-6 col-sm-12 col-xs-12" required pattern="(?=.*[A-Z]).{6,}"></input>
+			<br>
+				<input type="text" id="Ciudad" name="ciudad" placeholder=" Ciudad" class="mx-auto d-block col-lg-6 col-md-6 col-sm-12 col-xs-12"  required pattern="(?=.*[A-Z]).{5,}" title="Ingrese el nombre de su ciudad, ejem: Quito"></input>
+			<br>
+				<input type="tel" id="Telefono" name="telefono" placeholder=" Teléfono" class="mx-auto d-block col-lg-6 col-md-6 col-sm-12 col-xs-12" required pattern="[0-9]+" title="Ingrese su número de teléfono, sin el simbolo + en caso de celular"></input>
+			<br>
+				<input type="email" id="Email" name="email" placeholder=" Correo electronico" class="mx-auto d-block col-lg-6 col-md-6 col-sm-12 col-xs-12" required></input>
+			<br>
+				<input type="radio" id="Check" name="check" value="1" class="check mx-auto col-lg-6 col-md-6">
+				<label for="check" class="terminos mx-auto d-block col-lg-6 col-md-6 "><i>Acepto los  <a target="_blank" href="../mundial/terminos/Terminos-Condiciones Actividad-“Vive-una-experiencia-WOW”.pdf">términos y condiciones</a></i></label>
+	<br>			
+	<button id="mundial" type="submit" class="enviar check mx-auto d-block col-lg-4 col-md-4 col-sm-4 col-xs-4"><i class="fas fa-angle-double-down"></i> REGÍSTRATE   <i class="fas fa-angle-double-down"></i> </button>
+			</form>
+		</div>
+	</div>
+</body>
+	<footer>
+		<div class="container text-footer">
+			<p class="conectado col-md-7 col-sm-12 col-xs-12 col-lg-7 col-xl-12">Mantente conectado para descubrir muy pronto ¡Cómo vivir WOW!</p>
+			<div class="redes">
+				<img src="../mundial/images/facebook.png" class="face img-fluid">
+				<img src="../mundial/images/yotube.png" class="youtube img-fluid">
+				<img src="../mundial/images/instagram.png" class="insta img-fluid">
+			</div>
+		</div>
+	</footer>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.0.0.js"></script>
+</html>
