@@ -151,7 +151,7 @@ img.insta {
 	
 }
 
-@media screen and (max-width:576px)
+@media screen and (max-width:640px)
 {
 .m {
     position: static;
