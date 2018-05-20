@@ -349,4 +349,31 @@ img.insta {
     text-align: center;
 }
 }
-
+@media screen and (min-width:641px) and (max-width:767px){
+	.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + 4px);
+    color: #0984bb;
+    text-align: center;
+}
+	.h {
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    left: -9%;
+}
+	.text-footer {
+    position: relative;
+    margin-top: -4%;
+    padding-left: 6%;
+    font-size: 14px;
+}
+	.redes {
+    position: absolute;
+    margin-left: 0;
+    margin-top: -7%;
+    left: 90%;
+    width: 31%;
+}
+}
