@@ -1,6 +1,14 @@
 /* CSS Document */
-
-
+@font-face{
+	font-family: Grobold;
+	src: url(../fonts/GROBOLD.ttf)
+}
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -180px);
+    color: #0984bb;
+}
 .logo {
     position: relative;
     margin-top: -26%;
@@ -120,7 +128,13 @@ img.youtube {
 img.insta {
     width: 15%;
 }
-
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -30px);
+    color: #0984bb;
+    text-align: center;
+}
 }
 
 @media screen and (min-width:992px)
@@ -148,7 +162,12 @@ img.insta {
     margin-left: 57%;
     margin-top: -6%;
 }
-	
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -12px);
+    color: #0984bb;
+}
 }
 
 @media screen and (max-width:640px)
@@ -221,6 +240,13 @@ img.insta {
     color: white;
     height: 10vw;
 }
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -208px);
+    color: #0984bb;
+    text-align: center;
+}
 }
 @media screen and (max-width:360px){
 	#imagenes {
@@ -243,6 +269,13 @@ img.insta {
     left: -44%;
 		z-index: 99999;
 }
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -140px);
+    color: #0984bb;
+    text-align: center;
+}
 }
 @media screen and (min-width:1200px){
 	.m {
@@ -263,6 +296,18 @@ img.insta {
     padding-left: 15%;
     font-size: 18px;
 }
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + 0px);
+    color: #0984bb;
+}
+	.muchas{
+		font-size: 5rem;
+	}
+	.estas{
+		font-size: 4rem;
+	}
 }
 @media screen and (min-width:1440px){
 	.m {
@@ -282,6 +327,12 @@ img.insta {
     margin-left: 60%;
     margin-top: -6%;
 }
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -36px);
+    color: #0984bb;
+}
 }
 
 @media screen and (min-width:361px) and (max-width:575px)
@@ -289,6 +340,13 @@ img.insta {
 	#imagenes {
     position: relative;
     top: calc(1vw + -28vw);
+}
+.gracias {
+    position: relative;
+    font-family: Grobold;
+    margin-top: calc(1vw + -160px);
+    color: #0984bb;
+    text-align: center;
 }
 }
 
