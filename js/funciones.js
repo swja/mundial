@@ -15,3 +15,19 @@ onload=function(){
             }
         );
     });
+
+function plataformaEs() {
+    if (navigator.platform == "iPhone" || navigator.platform == "iPad") {
+        alert(navigator.platform);
+						
+    } else {
+        if (navigator.userAgent.match(/Android/i)) {
+				$("#linkestilo").attr("href", "css/style.css")
+							}
+        } else {
+            alert(navigator.platform + " mira la consola");
+            //console.log(navigator);
+							 
+        }
+    }
+}
